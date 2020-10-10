@@ -4,6 +4,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.static('./public/navIcons'));
 app.use(express.static('./public/styling'));
+app.use(express.static('./public/homeImages'));
 
 app.listen(3000);
 
