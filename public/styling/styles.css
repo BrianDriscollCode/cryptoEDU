@@ -4,3 +4,16 @@
   border-left: 2px solid #3498db;
   position: absolute;
 }
+
+.learnTextContainer {
+}
+
+.learnText {
+  font-size: 22px;
+  color: #3498db;
+}
+
+.whyCryptoTitle {
+  font-size: 20px;
+  font-style: italic;
+}
