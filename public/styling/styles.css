@@ -1,3 +1,8 @@
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
 
 .leading-line {
   height: 30px;
@@ -6,14 +11,20 @@
 }
 
 .learnTextContainer {
+  text-align: left;
 }
 
 .learnText {
-  font-size: 22px;
+  font-size: 28px;
   color: #3498db;
 }
 
 .whyCryptoTitle {
   font-size: 20px;
   font-style: italic;
+}
+
+
+.lineSpacing {
+  width: 5%;
 }
