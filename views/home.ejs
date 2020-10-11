@@ -19,36 +19,92 @@
           <h1 class="display-4 pageTitle"> Build Your Cryptocurrency Skillset </h1>
           <p class="lead"> We offer free and frequently updated resources on Plutus Programming and Cryptocurrency Technologies to help future crypto professionals launch their careers to the moon. </p>
           <hr class="my-4">
-          <button class="btn-info"> See Educational Resources </button>
+          <button class="educationButton btn-info"> See Educational Resources </button>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container align-items-center">
 
         <div class="leading-line"> </div>
         <p class="ml-3 whyCryptoTitle"> Why learn about Cryptocurrency? </p>
 
-          <div class="row ">
+          <div class="row mt-5">
             <div class="col-sm-5 ml-3">
-              <img class="" src="bitcoin.jpg" width="330px">
+              <img class="bitcoinImage ml-5" src="bitcoin.jpg" width="330px">
             </div>
             <div class="col-sm-6 learnTextContainer">
-              <p class="learnText ml-5 mr-5 mt-4 align-baseline"> Cryptocurrencies like Bitcoin and Cardano
+              <p class="learnText ml-2 mr-5 mt-2 align-baseline"> Cryptocurrencies like Bitcoin and Cardano
                                   are the future of finance and have opened up a new market for
-                                  jobs, both in-house and remote, to the world. </p>
+                                  jobs, both in-house and remote, all over the world. </p>
             </div>
           </div>
 
       </div>
 
-      <hr class="lineSpacing mt-5">
+      <div class="container d-flex justify-content-center mt-5 mb-1">
+        <div class="sectionLine"> </div>
+      </div>
 
-      <div class="container mt-5">
-        <p class="h4 opportunityText ml-5 mr-5"><em> Opportunities flourish for those who dive in a
+      <div class="container mt-5 mb-5">
+        <p class="h4 opportunityText ml-5 mr-5"><em> Opportunities flourish for those who dive in and
         learn about blockchain development, marketing, and business. </em></p>
       </div>
 
+      <div class="container mt-5 mb-5">
+        <div class="row d-flex justify-content-around">
+          <div class="card" style="width: 18rem;">
+            <img src="plutusPlayground.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plutus Playground Introduction</h5>
+              <p class="card-text"> The latest information on Cardano's Programming
+                Platform for Plutus. Learn to create basic smart contracts
+                 and basic Plutus syntax.</p>
+                 <button type="button" class="btn btn-info mt-4">Start</button>
+            </div>
+
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="cardanoLogo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cardano Foundations</h5>
+              <p class="card-text">Why is Cardano a leading ecosystem for smart contracts
+              and corporate adoption? We discuss 3rd generation crypto innovations
+              and the value-proposition behind this Cryptocurrency.</p>
+              <button type="button" class="btn btn-primary">Coming soon...</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="bitcoinLogo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bitcoin Foundations</h5>
+              <p class="card-text"> Who created Bitcoin, why does it exist, and how
+              does it work. Dive into this groundbreaking technology and learn why
+              it is poised to change the world of finance forever. </p>
+              <button type="button" class="btn btn-primary mt-4">Coming soon...</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+          </div>
+
+          <div class="col-md-4 mt-3 ml-2">
+            <p class="copyrightText"> copyright @ 2020 FreeCryptoEducation.org</p>
+          </div>
+
+          <div class="col-md-4">
+          </div>
+        </div>
+
+      </footer>
+
     </div>
+
     <%- include("./partials/scripts.ejs") %>
   </body>
 
