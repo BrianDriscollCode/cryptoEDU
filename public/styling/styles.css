@@ -4,6 +4,15 @@ html, body. div{
     width: 100% !important;
 }
 
+.mainBody {
+  box-sizing: border-box;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
 .leading-line {
   height: 30px;
   border-left: 2px solid #3498db;
@@ -27,4 +36,10 @@ html, body. div{
 
 .lineSpacing {
   width: 5%;
+}
+
+@media screen and (max-width: 435px) {
+ .pageTitle {
+   font-size: 40px;
+ }
 }
