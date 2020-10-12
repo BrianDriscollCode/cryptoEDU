@@ -19,3 +19,15 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about')
 })
+
+app.get('/articles', (req, res) => {
+  res.render('articles')
+})
+
+app.get('/contact', (req, res) => {
+  res.render('contact')
+})
+
+app.get('/free-Resources', (req, res) => {
+  res.render('freeResources')
+})
