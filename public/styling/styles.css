@@ -9,6 +9,10 @@ hr {
   color: #2c3e50 !important;
 }
 
+li, .nav-item {
+  font-size: 18px;
+}
+
 .jumbotronText {
   width:40%;
   font-size: 26px;
