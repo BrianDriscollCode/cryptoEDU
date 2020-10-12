@@ -5,6 +5,7 @@ app.use(express.static('public'));
 app.use(express.static('./public/navIcons'));
 app.use(express.static('./public/styling'));
 app.use(express.static('./public/homeImages'));
+app.use(express.static('./public/aboutImages'));
 app.use(express.static('./public/logo'));
 
 app.listen(3000);
