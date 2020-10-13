@@ -13,69 +13,10 @@ li, .nav-item {
   font-size: 18px;
 }
 
-.jumbotronText {
-  width:40%;
-  font-size: 26px;
-}
-
-.jumbotronLine {
-  width: 10%;
-}
-
 .sectionLine {
   height: 2px;
   background-color: #95a5a6;
   width: 10%;
-}
-
-.contactButton {
-  width: 120px;
-  height: 30px;
-  border-radius: 8px;
-}
-
-.educationButton {
-  border-radius: 8px;
-  width: 200px;
-  height:50px;
-}
-
-.mainBody {
-  box-sizing: border-box;
-}
-
-.row {
-  padding-right: 0px;
-  margin-right: 0px;
-}
-
-.leading-line {
-  height: 30px;
-  border-left: 2px solid #3498db;
-  position: absolute;
-}
-
-.bitcoinImage {
-  border-radius: 30px;
-}
-
-.learnTextContainer {
-  text-align: left;
-}
-
-.learnText {
-  font-size: 28px;
-  color: #3498db;
-}
-
-.whyCryptoTitle {
-  font-size: 20px;
-  font-style: italic;
-}
-
-
-.lineSpacing {
-  width: 5%;
 }
 
 footer {
@@ -85,10 +26,4 @@ footer {
 
 .copyrightText {
   color: white;
-}
-
-@media screen and (max-width: 435px) {
- .pageTitle {
-   font-size: 40px;
- }
 }

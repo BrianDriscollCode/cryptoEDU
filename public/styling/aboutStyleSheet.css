@@ -1,0 +1,16 @@
+.personalImage {
+  border-radius: 200px;
+}
+
+.aboutExplanation {
+  font-size: 20px;
+  width: 50%;
+}
+
+.leadText {
+  width: 60%;
+}
+
+.theProblemText {
+  font-size: 19px;
+}
